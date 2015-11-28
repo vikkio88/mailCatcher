@@ -1,0 +1,17 @@
+{
+    "name": "vikkio88/maltaparkcrawler",
+    "description": "A better ui for MaltaPark",
+    "keywords": ["MaltaPark", "vikkio88"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "symfony/dom-crawler": "^2.7",
+        "symfony/finder": "^2.7",
+        "symfony/css-selector": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Lib\\": "Lib/"
+        }
+    }
+}
